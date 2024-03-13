@@ -3,7 +3,7 @@ package _00_TestNGIntro;
 import org.testng.annotations.*;
 import utility.BaseDriver;
 
-public class _01_Annotations extends BaseDriver {
+public class _01_Annotations{
     /**
      * @BeforeSuite
         * @BeforeTest
