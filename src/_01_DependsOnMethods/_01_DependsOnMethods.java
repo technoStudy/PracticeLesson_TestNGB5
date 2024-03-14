@@ -1,11 +1,10 @@
-package dependsOnMethods;
+package _01_DependsOnMethods;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utility.BaseDriver;
-import utility.Tools;
 
 public class _01_DependsOnMethods extends BaseDriver {
 
