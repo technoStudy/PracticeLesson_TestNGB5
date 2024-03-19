@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suit">
+    <test name="My Test">
+        <parameter name="browser" value="chrome"> </parameter>
+        <parameter name="msg" value="12345sifre"> </parameter>
+
+        <classes>
+            <class name="src._13_Xml_FileTool.Parametre"> </class>
+        </classes>
+    </test>
+
+</suite>

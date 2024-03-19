@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suit">
+    <test name="My Test">
+        <groups>
+            <run>
+                <include name="Smoke"> </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="src._13_Xml_FileTool.Groups"> </class>
+        </classes>
+    </test>
+
+</suite>
