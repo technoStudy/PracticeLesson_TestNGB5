@@ -6,7 +6,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utility.BaseDriver;
-import utility.Tools;
 
 public class LoginTest extends BaseDriver {
 
