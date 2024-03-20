@@ -32,7 +32,6 @@ public class LoginTest extends BaseDriver {
                 &&
               password.equals("secret_sauce")
       ){
-
           WebElement burgerMenu=driver.findElement(By.id("react-burger-menu-btn"));
           burgerMenu.click();
 
