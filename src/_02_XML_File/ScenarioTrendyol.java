@@ -10,7 +10,7 @@ import utility.Tools;
 import static utility.BaseDriver.driver;
 
 
-public class SenerioTrendyol {
+public class ScenarioTrendyol {
     @BeforeTest
     public void start() {
         driver.get("https://www.trendyol.com/");

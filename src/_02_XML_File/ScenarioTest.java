@@ -3,7 +3,7 @@ package _02_XML_File;
 import org.testng.annotations.Test;
 
 
-public class SenerioTest {
+public class ScenarioTest {
     @Test
     public void test06(){
         int a =20;
