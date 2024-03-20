@@ -1,0 +1,27 @@
+Task:
+
+1)- https://www.saucedemo.com/ sitesine gidiniz.
+
+2)- Sitede yer alan geçerli kullanıcı adı ve şifreler de dahil olmak üzere;
+    10 farklı kullanıcı adı ve şifre ile login işlemini gerçekleştiriniz.
+
+    Accepted usernames are:
+    standard_user
+    locked_out_user
+    problem_user
+    performance_glitch_user
+    error_user
+    visual_user
+
+
+    Password for all users:
+    secret_sauce
+
+3)- Geçerli olmayan kullanıcı adı ve şifre ile giriş yapılmaya çalışılması halinde,
+    hata mesajının göründüğünü doğrulayınız.
+
+4)- Geçerli şifre ve kullanıcı adı girildiğinde kullanıcının kilitlenmesi halinde,
+    bu duruma ilişkin uyarı mesajının göründüğünü doğrulayınız.
+
+5)- TestNG kullanarak ve tek bir test metodu ile bu işlemleri gerçekleştiriniz.
+
