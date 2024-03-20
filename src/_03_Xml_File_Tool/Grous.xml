@@ -8,7 +8,7 @@
             </run>
         </groups>
         <classes>
-            <class name="src._13_Xml_FileTool.Groups"> </class>
+            <class name="_03_Xml_File_Tool.Groups"> </class>
         </classes>
     </test>
 

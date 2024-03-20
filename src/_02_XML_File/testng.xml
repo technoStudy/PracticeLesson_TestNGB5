@@ -6,8 +6,8 @@
 
     <test name="My Test">
         <classes>
-            <class name="src._12_XML_File.SenerioTrendyol"/>
-            <class name="src._12_XML_File.SenerioTest"/>
+           <class name="_02_XML_File.SenerioTrendyol"> </class>
+            <class name="_02_XML_File.SenerioTest"/>
         </classes>
     </test>
 </suite>
