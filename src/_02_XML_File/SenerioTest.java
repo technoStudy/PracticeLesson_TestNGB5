@@ -1,6 +1,7 @@
 package _02_XML_File;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
+
 
 public class SenerioTest {
     @Test
