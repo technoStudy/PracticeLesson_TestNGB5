@@ -10,19 +10,19 @@ import org.testng.annotations.Parameters;
 public class Browser {
     @BeforeClass
     @Parameters("browser")
-    public void browserLogin(String browser){
+    public void browserLogin(String browser) {
 
-        WebDriver driver=null;
+        WebDriver driver = null;
 
-        switch (browser){
+        switch (browser) {
             case "chrome":
-                driver=new ChromeDriver();
+                driver = new ChromeDriver();
                 break;
             case "safari":
-                driver=new SafariDriver();
+                driver = new SafariDriver();
                 break;
-            case  "Edge":
-                driver=new EdgeDriver();
+            case "Edge":
+                driver = new EdgeDriver();
         }
     }
 }

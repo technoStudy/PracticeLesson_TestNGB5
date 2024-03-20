@@ -9,7 +9,6 @@ import utility.Tools;
 
 import static utility.BaseDriver.driver;
 
-
 public class ScenarioTrendyol {
     @BeforeTest
     public void start() {
@@ -29,14 +28,10 @@ public class ScenarioTrendyol {
         WebElement firstobj = driver.findElement(By.xpath("//span[@class='prdct-desc-cntnr-name hasRatings'][1]"));
 
         System.out.println(" ilk urun adi : " + firstobj.getText());
-
-
     }
 
     @AfterTest
     public void end() {
         driver.quit();
     }
-
-
 }

@@ -5,15 +5,17 @@ import org.testng.annotations.Test;
 public class Groups {
 
     @Test(groups = "Smoke")
-    public void test1(){
+    public void test1() {
         System.out.println("Merhaba dunya 1 .");
     }
+
     @Test(groups = "Regression")
-    public void test2(){
+    public void test2() {
         System.out.println("Merhaba dunya 2 .");
-    } @Test(groups = "Deneme")
-    public void test3(){
-        System.out.println("Merhaba dunya 3 .");
     }
 
+    @Test(groups = "Deneme")
+    public void test3() {
+        System.out.println("Merhaba dunya 3 .");
+    }
 }
