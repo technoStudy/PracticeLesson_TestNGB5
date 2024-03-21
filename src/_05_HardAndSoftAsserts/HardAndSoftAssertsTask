@@ -1,0 +1,7 @@
+Task :
+
+"https://google.com/"  sitesine gidiniz.
+URL'in "google.com" ibaresini içerdiğini doğrulayınız
+title'ın "google" kelimesini içerdiğini doğrulayınız.
+Search kısmına "Selenium" yazıp Enter'a basınız.
+Search işlemi sonundaki ilk sonucun "selenium" kelimesini içerdiğini doğrulayınız.
