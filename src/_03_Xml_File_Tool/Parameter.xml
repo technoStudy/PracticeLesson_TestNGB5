@@ -8,7 +8,7 @@
         <parameter name="msg" value="12345sifre"></parameter>
 
         <classes>
-            <class name="_03_Xml_File_Tool.Parametre"></class>
+            <class name="_03_Xml_File_Tool.Parameter"></class>
         </classes>
     </test>
 

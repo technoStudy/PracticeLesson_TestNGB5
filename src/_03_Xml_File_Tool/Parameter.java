@@ -4,7 +4,7 @@ import org.testng.annotations.Ignore;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Parametre extends Browser {
+public class Parameter extends Browser {
     @Test
     @Parameters("msg")
     public void testlogin(String sifre) {
