@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-25T17:27:06 CET" name="Default Suite" finished-at="2024-03-25T17:27:22 CET" duration-ms="15790">
+    <groups>
+    </groups>
+    <test started-at="2024-03-25T17:27:06 CET" name="PracticeLesson_TestNGB5" finished-at="2024-03-25T17:27:22 CET" duration-ms="15790">
+      <class name="_06_POM.LoginTestPOM">
+        <test-method is-config="true" signature="initialOperations()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:06 CET" name="initialOperations" finished-at="2024-03-25T17:27:07 CET" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialOperations -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:07 CET" name="beforeMethod" finished-at="2024-03-25T17:27:07 CET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:07 CET" name="loginTest" data-provider="credentials" finished-at="2024-03-25T17:27:10 CET" duration-ms="2952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:10 CET" name="afterMethod" finished-at="2024-03-25T17:27:10 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTestPOM.loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:10 CET" name="beforeMethod" finished-at="2024-03-25T17:27:10 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:10 CET" name="loginTest" data-provider="credentials" finished-at="2024-03-25T17:27:11 CET" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fake_user_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:11 CET" name="afterMethod" finished-at="2024-03-25T17:27:11 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTestPOM.loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:11 CET" name="beforeMethod" finished-at="2024-03-25T17:27:11 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:11 CET" name="loginTest" data-provider="credentials" finished-at="2024-03-25T17:27:11 CET" duration-ms="289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fake_password_01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:11 CET" name="afterMethod" finished-at="2024-03-25T17:27:11 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTestPOM.loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:11 CET" name="beforeMethod" finished-at="2024-03-25T17:27:11 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:11 CET" name="loginTest" data-provider="credentials" finished-at="2024-03-25T17:27:16 CET" duration-ms="5366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:16 CET" name="afterMethod" finished-at="2024-03-25T17:27:16 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTestPOM.loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:16 CET" name="beforeMethod" finished-at="2024-03-25T17:27:16 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:16 CET" name="loginTest" data-provider="credentials" finished-at="2024-03-25T17:27:17 CET" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fake_user_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:17 CET" name="afterMethod" finished-at="2024-03-25T17:27:17 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTestPOM.loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:17 CET" name="beforeMethod" finished-at="2024-03-25T17:27:17 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:17 CET" name="loginTest" data-provider="credentials" finished-at="2024-03-25T17:27:17 CET" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:17 CET" name="afterMethod" finished-at="2024-03-25T17:27:17 CET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTestPOM.loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:17 CET" name="loginTest" data-provider="credentials" finished-at="2024-03-25T17:27:17 CET" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fake_password_01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:17 CET" name="beforeMethod" finished-at="2024-03-25T17:27:17 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:17 CET" name="afterMethod" finished-at="2024-03-25T17:27:17 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTestPOM.loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:17 CET" name="beforeMethod" finished-at="2024-03-25T17:27:17 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:17 CET" name="loginTest" data-provider="credentials" finished-at="2024-03-25T17:27:18 CET" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:18 CET" name="afterMethod" finished-at="2024-03-25T17:27:18 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTestPOM.loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:18 CET" name="beforeMethod" finished-at="2024-03-25T17:27:18 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:18 CET" name="loginTest" data-provider="credentials" finished-at="2024-03-25T17:27:18 CET" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:18 CET" name="afterMethod" finished-at="2024-03-25T17:27:18 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTestPOM.loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:18 CET" name="beforeMethod" finished-at="2024-03-25T17:27:18 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:18 CET" name="loginTest" data-provider="credentials" finished-at="2024-03-25T17:27:18 CET" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:18 CET" name="afterMethod" finished-at="2024-03-25T17:27:18 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTestPOM.loginTest(java.lang.String,java.lang.String)[pri:0, instance:_06_POM.LoginTestPOM@41813449] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="finishingOperations()[pri:0, instance:_06_POM.LoginTestPOM@41813449]" started-at="2024-03-25T17:27:18 CET" name="finishingOperations" finished-at="2024-03-25T17:27:22 CET" duration-ms="3343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishingOperations -->
+      </class> <!-- _06_POM.LoginTestPOM -->
+    </test> <!-- PracticeLesson_TestNGB5 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
