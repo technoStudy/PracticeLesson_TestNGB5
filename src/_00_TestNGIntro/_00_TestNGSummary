@@ -1,0 +1,31 @@
+ TestNG:
+
+ TestNG, bir test çerçevesidir ve JUnit'e alternatif olarak kullanılabilir.
+ TestNG, test senaryolarınızı organize etmek, paralel testler çalıştırmak,
+ test sonuçlarını raporlamak ve daha fazlasını yapmak için gelişmiş özellikler sunar.
+
+ TestNG'nin bazı özellikleri şunlardır:
+
+- Gruplama ve Bağımlılıklar:
+ Test senaryolarını gruplara ayırabilir ve gruplar arasında bağımlılıklar belirleyebilirsiniz.
+ Bu sayede, belirli test gruplarını veya sıralamaları çalıştırabilirsiniz.
+
+- Parametreli Testler:
+ Aynı test senaryosunu farklı parametrelerle çalıştırabilirsiniz.
+ Bu, farklı senaryoları tek bir test metoduyla temsil etmenizi sağlar.
+
+- Veri Sağlayıcıları:
+ Test senaryolarınızı dış veri kaynaklarından besleyebilirsiniz.
+ Örneğin, Excel dosyaları, veritabanı sorguları veya CSV dosyaları gibi kaynakları kullanabilirsiniz.
+
+- Paralel Testler:
+ TestNG, test senaryolarınızı paralel olarak çalıştırmanıza olanak sağlar.
+ Bu, test süresini azaltır ve testlerin daha hızlı tamamlanmasını sağlar.
+
+- Raporlama ve Dinamik Raporlar:
+ TestNG, test sonuçlarını HTML veya XML raporları şeklinde sunar.
+ Bu raporlar, testlerin başarılı veya başarısız olduğunu,
+ hangi adımların geçildiğini veya hataların hangi noktalarda oluştuğunu gösterir.
+ Ayrıca, TestNG'nin dinamik raporlama özelliği sayesinde,
+ test sonuçlarınızı özelleştirebilir ve istediğiniz şekilde sunabilirsiniz.
+
