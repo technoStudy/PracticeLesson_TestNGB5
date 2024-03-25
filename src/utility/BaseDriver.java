@@ -18,7 +18,9 @@ public class BaseDriver {
 
     public static WebDriver driver; // SingletonDriver method
     public static WebDriverWait wait;
-    public static org.apache.logging.log4j.Logger logger4j2 = LogManager.getLogger();
+
+    public static final org.apache.logging.log4j.Logger logger4j2= LogManager.getLogger();
+
 
 
     @BeforeClass
