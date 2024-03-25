@@ -1,10 +1,14 @@
 package utility;
 
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
 import java.util.logging.Level;
@@ -14,13 +18,15 @@ public class BaseDriver {
 
     public static WebDriver driver; // SingletonDriver method
     public static WebDriverWait wait;
+    public static org.apache.logging.log4j.Logger logger4j2 = LogManager.getLogger();
+
 
     @BeforeClass
     public void initialOperations() {  // The condition of this is that it is extends and takes place in the first place.
 
         Logger logger = Logger.getLogger(""); // Get output logs.
         logger.setLevel(Level.SEVERE);              // Show only ERRORs
-         /**
+        /**
          Logger nesnesi oluşturularak loglar alınır ve
          sadece HATA (ERROR) seviyesindeki loglar görüntülenir.
          */
@@ -36,7 +42,7 @@ public class BaseDriver {
          driver üzerinden manage().timeouts() metodu kullanılarak sayfa yükleme süresi ve zımni bekleme süresi ayarlanır.
          */
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30)); // 30 sec delay: time to load the page
-         /**
+        /**
          Sayfa yükleme süresi (pageLoadTimeout) WebDriver'ın bir sayfanın tamamen yüklenmesini beklemesini sağlar.
          Bu süre boyunca WebDriver, sayfanın yüklenmesini bekler ve eğer belirtilen süre içinde sayfa tamamen yüklenmezse bir hata fırlatır.
 
@@ -50,7 +56,7 @@ public class BaseDriver {
          */
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));  // 30 sec delay: time to find the element
-         /**
+        /**
          Zımni bekleme süresi (implicitlyWait) WebDriver'ın belirli bir süre boyunca arama işlemlerini beklemesini sağlar.
          Bu süre boyunca WebDriver, sayfadaki elemanları bulmak için bekler.
          Eğer eleman hemen bulunamazsa, WebDriver belirtilen süre boyunca arama işlemini tekrar eder.
@@ -75,6 +81,16 @@ public class BaseDriver {
          Bu metot ile Tools sınıfındaki wait metodu çağrılarak 3 saniye bekler ve
          ardından driver.quit() metodu kullanılarak WebDriver kapatılır.
          */
+    }
+
+    @BeforeMethod
+    public void beforeMethod() {
+        logger4j2.info("Test method has started.");
+    }
+
+    @AfterMethod
+    public void afterMethod(ITestResult result) {
+        logger4j2.info(result.getName() + " test method has finished. -->" + (result.getStatus() == 1 ? "Passed" : "Failed"));
     }
 }
 
