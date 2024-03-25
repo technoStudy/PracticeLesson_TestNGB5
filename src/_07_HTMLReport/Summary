@@ -1,0 +1,9 @@
+HTML Raporlama:
+
+TestNG, test sonuçlarını HTML raporları şeklinde sunma özelliği sunar.
+Bu raporlar, testlerin başarılı veya başarısız olduğunu,
+hangi adımların geçildiğini veya hataların hangi noktalarda oluştuğunu gösterir.
+HTML raporları, test sonuçlarınızı daha görsel ve anlaşılır bir şekilde sunmanıza yardımcı olur.
+Raporlar, testlerin geçtiği veya başarısız olduğu noktaları,
+test sürelerini, hata mesajlarını ve diğer ayrıntıları içerebilir.
+Bu sayede, test sonuçlarınızı analiz etmek ve geliştirmeler yapmak için değerli bilgiler elde edebilirsiniz.

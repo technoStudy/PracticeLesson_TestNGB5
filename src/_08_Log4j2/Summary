@@ -1,0 +1,25 @@
+Log4j2:
+
+Log4j2, Java uygulamalarında günlük (log) mesajlarını yönetmek için kullanılan bir günlükleme çerçevesidir.
+Bu çerçeve, uygulamanızın çalışması sırasında oluşan olayları kaydetmenizi ve izlemenizi sağlar.
+
+Log4j2'nin bazı özellikleri şunlardır:
+
+- Log Seviyeleri:
+ Log4j2, farklı log seviyelerini destekler. Bu seviyeler, log mesajlarının önem derecesini belirtir.
+ Örneğin, DEBUG, INFO, WARN, ERROR veya FATAL gibi seviyeler kullanabilirsiniz.
+
+- Log Dosyaları:
+ Log4j2, log mesajlarını belirli dosyalara kaydetmenizi sağlar.
+ Bu dosyalar, uygulamanızın çalışması sırasında oluşan olayları kaydeder.
+ Log dosyaları, hata ayıklama veya sorun giderme sürecinde faydalı olabilir.
+
+- Log Formatları:
+ Log4j2, log mesajlarının nasıl biçimlendirileceğini belirlemenizi sağlar.
+ Örneğin, log mesajlarının tarih saat bilgisiyle birlikte veya
+ belirli bir düzen içinde kaydedilmesini sağlayabilirsiniz.
+
+- Log Yönetimi:
+ Log4j2, log mesajlarının yönetimini kolaylaştırır.
+ Örneğin, log dosyalarının boyutunu veya yaşam süresini sınırlayabilir,
+ log mesajlarını farklı hedeflere yönlendirebilir veya log mesajlarını filtreleyebilirsiniz.
