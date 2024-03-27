@@ -1,0 +1,194 @@
+2024-03-25 17:23:03.675 INFO  Test method has started.
+2024-03-25 17:23:07.923 INFO  registerTest test method has finished. -->Passed
+2024-03-25 17:23:07.927 INFO  Test method has started.
+2024-03-25 17:23:09.325 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:25:43.373 INFO  Test method has started.
+2024-03-25 17:25:46.330 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:25:46.332 INFO  Test method has started.
+2024-03-25 17:25:46.706 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:25:46.707 INFO  Test method has started.
+2024-03-25 17:25:47.023 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:25:47.024 INFO  Test method has started.
+2024-03-25 17:25:52.404 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:25:52.413 INFO  Test method has started.
+2024-03-25 17:25:52.740 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:25:52.741 INFO  Test method has started.
+2024-03-25 17:25:53.083 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:25:53.084 INFO  Test method has started.
+2024-03-25 17:25:53.379 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:25:53.380 INFO  Test method has started.
+2024-03-25 17:25:53.734 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:25:53.735 INFO  Test method has started.
+2024-03-25 17:25:54.068 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:25:54.069 INFO  Test method has started.
+2024-03-25 17:25:54.360 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:27:07.746 INFO  Test method has started.
+2024-03-25 17:27:10.704 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:27:10.706 INFO  Test method has started.
+2024-03-25 17:27:11.077 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:27:11.078 INFO  Test method has started.
+2024-03-25 17:27:11.369 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:27:11.369 INFO  Test method has started.
+2024-03-25 17:27:16.737 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:27:16.739 INFO  Test method has started.
+2024-03-25 17:27:17.061 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:27:17.062 INFO  Test method has started.
+2024-03-25 17:27:17.402 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:27:17.403 INFO  Test method has started.
+2024-03-25 17:27:17.699 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:27:17.701 INFO  Test method has started.
+2024-03-25 17:27:18.057 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:27:18.058 INFO  Test method has started.
+2024-03-25 17:27:18.388 INFO  loginTest test method has finished. -->Passed
+2024-03-25 17:27:18.388 INFO  Test method has started.
+2024-03-25 17:27:18.687 INFO  loginTest test method has finished. -->Passed
+2024-03-27 14:08:56.398 INFO  Test method has started.
+2024-03-27 14:08:56.521 INFO  test1 test method has finished. -->Failed
+2024-03-27 14:09:31.051 INFO  Test method has started.
+2024-03-27 14:09:31.146 INFO  test1 test method has finished. -->Failed
+2024-03-27 14:09:53.272 INFO  Test method has started.
+2024-03-27 14:09:53.394 INFO  test1 test method has finished. -->Failed
+2024-03-27 14:09:53.405 INFO  Test method has started.
+2024-03-27 14:09:53.407 INFO  test2 test method has finished. -->Passed
+2024-03-27 14:09:53.410 INFO  Test method has started.
+2024-03-27 14:09:53.413 INFO  test3 test method has finished. -->Passed
+2024-03-27 14:11:10.902 INFO  Test method has started.
+2024-03-27 14:11:10.979 INFO  test1 test method has finished. -->Failed
+2024-03-27 14:12:11.833 INFO  Test method has started.
+2024-03-27 14:12:14.749 INFO  test1 test method has finished. -->Passed
+2024-03-27 14:12:14.754 INFO  Test method has started.
+2024-03-27 14:12:14.756 INFO  test2 test method has finished. -->Passed
+2024-03-27 14:12:14.757 INFO  Test method has started.
+2024-03-27 14:12:14.759 INFO  test3 test method has finished. -->Passed
+2024-03-27 14:12:55.345 INFO  Test method has started.
+2024-03-27 14:12:58.744 INFO  test1 test method has finished. -->Passed
+2024-03-27 14:12:58.749 INFO  Test method has started.
+2024-03-27 14:12:58.751 INFO  test2 test method has finished. -->Passed
+2024-03-27 14:12:58.753 INFO  Test method has started.
+2024-03-27 14:12:58.755 INFO  test3 test method has finished. -->Passed
+2024-03-27 14:14:26.830 INFO  Test method has started.
+2024-03-27 14:14:30.271 INFO  test1 test method has finished. -->Passed
+2024-03-27 14:14:30.285 INFO  Test method has started.
+2024-03-27 14:14:30.288 INFO  test2 test method has finished. -->Passed
+2024-03-27 14:14:30.291 INFO  Test method has started.
+2024-03-27 14:14:30.297 INFO  test3 test method has finished. -->Passed
+2024-03-27 14:16:21.334 INFO  Test method has started.
+2024-03-27 14:16:24.255 INFO  test1 test method has finished. -->Passed
+2024-03-27 14:16:24.258 INFO  Test method has started.
+2024-03-27 14:16:24.260 INFO  test2 test method has finished. -->Passed
+2024-03-27 14:16:24.262 INFO  Test method has started.
+2024-03-27 14:16:24.274 INFO  test3 test method has finished. -->Passed
+2024-03-27 14:17:07.173 INFO  Test method has started.
+2024-03-27 14:17:10.202 INFO  test1 test method has finished. -->Passed
+2024-03-27 14:17:10.222 INFO  Test method has started.
+2024-03-27 14:17:10.233 INFO  test2 test method has finished. -->Passed
+2024-03-27 14:17:10.235 INFO  Test method has started.
+2024-03-27 14:17:10.237 INFO  test3 test method has finished. -->Passed
+2024-03-27 16:03:57.958 INFO  Test method has started.
+2024-03-27 16:04:01.480 INFO  test1 test method has finished. -->Passed
+2024-03-27 16:09:44.590 INFO  Test method has started.
+2024-03-27 16:09:48.096 INFO  test1 test method has finished. -->Passed
+2024-03-27 16:09:48.103 INFO  Test method has started.
+2024-03-27 16:09:48.113 INFO  test2 test method has finished. -->Passed
+2024-03-27 16:09:48.117 INFO  Test method has started.
+2024-03-27 16:09:48.161 INFO  test3 test method has finished. -->Passed
+2024-03-27 16:11:15.027 INFO  Test method has started.
+2024-03-27 16:11:15.142 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:11:15.146 INFO  Test method has started.
+2024-03-27 16:11:15.154 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:11:15.159 INFO  Test method has started.
+2024-03-27 16:11:15.170 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:11:15.173 INFO  Test method has started.
+2024-03-27 16:11:15.182 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:11:15.184 INFO  Test method has started.
+2024-03-27 16:11:15.206 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:11:15.214 INFO  Test method has started.
+2024-03-27 16:11:15.228 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:11:15.230 INFO  Test method has started.
+2024-03-27 16:11:15.241 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:11:15.244 INFO  Test method has started.
+2024-03-27 16:11:15.264 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:11:15.275 INFO  Test method has started.
+2024-03-27 16:11:15.294 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:11:15.297 INFO  Test method has started.
+2024-03-27 16:11:15.329 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:04.290 INFO  Test method has started.
+2024-03-27 16:12:04.384 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:04.388 INFO  Test method has started.
+2024-03-27 16:12:04.399 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:04.401 INFO  Test method has started.
+2024-03-27 16:12:04.409 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:04.415 INFO  Test method has started.
+2024-03-27 16:12:04.422 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:04.426 INFO  Test method has started.
+2024-03-27 16:12:04.437 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:04.440 INFO  Test method has started.
+2024-03-27 16:12:04.450 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:04.453 INFO  Test method has started.
+2024-03-27 16:12:04.480 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:04.487 INFO  Test method has started.
+2024-03-27 16:12:04.501 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:04.503 INFO  Test method has started.
+2024-03-27 16:12:04.516 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:04.520 INFO  Test method has started.
+2024-03-27 16:12:04.537 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:17.960 INFO  Test method has started.
+2024-03-27 16:12:18.070 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:18.074 INFO  Test method has started.
+2024-03-27 16:12:18.085 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:18.088 INFO  Test method has started.
+2024-03-27 16:12:18.100 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:18.104 INFO  Test method has started.
+2024-03-27 16:12:18.114 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:18.117 INFO  Test method has started.
+2024-03-27 16:12:18.125 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:18.130 INFO  Test method has started.
+2024-03-27 16:12:18.138 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:18.141 INFO  Test method has started.
+2024-03-27 16:12:18.152 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:18.157 INFO  Test method has started.
+2024-03-27 16:12:18.176 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:18.179 INFO  Test method has started.
+2024-03-27 16:12:18.187 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:12:18.193 INFO  Test method has started.
+2024-03-27 16:12:18.201 INFO  loginTest test method has finished. -->Failed
+2024-03-27 16:13:16.019 INFO  Test method has started.
+2024-03-27 16:13:19.735 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:13:19.737 INFO  Test method has started.
+2024-03-27 16:13:20.564 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:13:20.568 INFO  Test method has started.
+2024-03-27 16:13:21.095 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:13:21.096 INFO  Test method has started.
+2024-03-27 16:13:26.667 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:13:26.670 INFO  Test method has started.
+2024-03-27 16:13:27.138 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:13:27.140 INFO  Test method has started.
+2024-03-27 16:13:27.644 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:13:27.652 INFO  Test method has started.
+2024-03-27 16:13:28.159 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:13:28.160 INFO  Test method has started.
+2024-03-27 16:13:28.660 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:13:28.661 INFO  Test method has started.
+2024-03-27 16:13:29.194 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:13:29.195 INFO  Test method has started.
+2024-03-27 16:13:29.675 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:15:16.937 INFO  Test method has started.
+2024-03-27 16:15:20.384 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:15:20.387 INFO  Test method has started.
+2024-03-27 16:15:21.183 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:15:21.185 INFO  Test method has started.
+2024-03-27 16:15:21.745 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:15:21.746 INFO  Test method has started.
+2024-03-27 16:15:27.303 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:15:27.305 INFO  Test method has started.
+2024-03-27 16:15:27.743 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:15:27.745 INFO  Test method has started.
+2024-03-27 16:15:28.258 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:15:28.260 INFO  Test method has started.
+2024-03-27 16:15:28.756 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:15:28.757 INFO  Test method has started.
+2024-03-27 16:15:29.271 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:15:29.273 INFO  Test method has started.
+2024-03-27 16:15:29.772 INFO  loginTest test method has finished. -->Passed
+2024-03-27 16:15:29.776 INFO  Test method has started.
+2024-03-27 16:15:30.236 INFO  loginTest test method has finished. -->Passed
