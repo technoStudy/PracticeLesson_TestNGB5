@@ -5,10 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 import java.time.Duration;
 import java.util.logging.Level;
@@ -17,9 +14,9 @@ import java.util.logging.Logger;
 public class BaseDriver {
     public static WebDriver driver; // SingletonDriver method
     public static WebDriverWait wait;
-    public static final org.apache.logging.log4j.Logger logger4j2= LogManager.getLogger();
+    public static final org.apache.logging.log4j.Logger logger4j2 = LogManager.getLogger();
 
-    @BeforeClass
+    @BeforeGroups(groups = "Smoke")
     public void initialOperations() {  // The condition of this is that it is extends and takes place in the first place.
 
         Logger logger = Logger.getLogger(""); // Get output logs.
@@ -76,7 +73,7 @@ public class BaseDriver {
         System.out.println("Login");
     }
 
-    @AfterClass
+    @AfterClass(groups = "Smoke")
     public static void finishingOperations() {
         Tools.wait(3);
         driver.quit();
